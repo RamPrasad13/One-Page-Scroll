@@ -1,0 +1,349 @@
+@media only screen and (max-width: 991px) {
+    .hide-mob {
+        display: none;
+    }
+    .mob-phone {
+        padding: 5em;
+    }  
+    .section {
+        background-position: 32% center !important;
+    }
+    .head-size {
+        font-size: 32px;
+        line-height: 36px!important;
+    }    
+    #sec-2 {
+        background-position: 93% 2%, 0 0 !important;   
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .head-size {
+        font-size: 28px;
+        line-height: 32px!important;
+    }    
+}
+
+@media only screen and (min-width: 992px) {
+    .head-size {
+        font-size: 38px;
+        line-height: 44px!important;
+    }
+
+    .mob-phone {
+        padding: 3em;
+    }
+}
+
+.section .contain {
+    padding-bottom: 1em;
+}
+
+.transparent {
+	background: rgba(255,255,255,.2);
+    box-shadow: 0 0 0 rgba(255,255,255,0);
+    height: 60px;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+#sec-1 {
+    background-image: url(https://i.l.inmobicdn.net/website/website/2.0.7/v4/img/home/home-5.jpg);		
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;	
+}
+
+#sec-2 {
+    background-color: #000;
+    background-image: url(https://i.l.inmobicdn.net/website/website/2.0.7/v4/img/home/reimagine.png),url(https://i.l.inmobicdn.net/website/website/2.0.7/v4/img/home/reimagine_bg.png);
+    background-repeat: no-repeat;
+    background-position: 80% 50%, 0% 0%;
+    background-size: 30%, cover;
+}
+
+#sec-3 {
+	background: transparent url('https://i.l.inmobicdn.net/website/website/2.0.7/v4/img/home/home-2.jpg');
+ 	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;	
+}
+
+.mar-0 {
+	margin: 0 !important;
+}
+
+.logo {
+	width: 100%;
+}
+
+#burger {
+    margin: 23px 20px 0 0;
+    cursor: pointer;
+    width: 25px;
+}
+
+#burger p {
+	height: 3px;
+    margin-bottom: 4px;
+    background: #fff;
+}
+
+li {
+	list-style-type: none;
+	margin-right: 20px;
+	font-weight: 700;
+	font-size: 16px; 
+}
+ 
+ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.contain {
+	width: 92%;
+	margin-right: 4%;
+	margin-left: 4%;
+}
+
+
+
+.main-head {
+	color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase; 
+    line-height: 48px;
+    margin-top: 3em;
+}
+
+.main-head span {
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.inner-head{
+	color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 3em;
+}
+
+.blue-head {
+	color: #0689cb;
+    font-weight: 800;
+}
+
+.know-btn {
+	margin-top: 3em;
+}
+
+.know-btn span {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	padding: 0.5em 2em;
+	border-radius: 2em;
+	font-size: 1.5em;
+    font-weight: 500;fmob-
+}
+
+#icon-links {
+    margin: 30px 0 0 0;
+    padding: 0px;
+    display: block;
+}
+
+#icon-links li a {
+    width: 35px;
+    margin: 0 6px;
+    height: 42px;
+    list-style-type: none;
+    background: transparent url(https://i.l.inmobicdn.net/website/website/2.0.7/v4/img/home/icon-links.png) top left no-repeat;
+    background-size: 222px;
+    display: block;
+}
+
+#icon-links li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#icon-links li:nth-child(1) a {
+    background-position: 1px 0px;
+}
+
+#icon-links li:nth-child(2) a {
+    background-position: -48px 0px;
+}
+
+#icon-links li:nth-child(3) a {
+    background-position: -94px 0px;
+}
+
+#icon-links li:nth-child(4) a {
+    background-position: -193px 0px;
+}
+
+#icon-links li a.active {
+	background-position-y: -42px !important;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0689cb; 
+}
+
+.bg-1 {
+    background: transparent url(https://i.l.inmobicdn.net/website/website/2.0.7/v4/img/home/icon-links.png) top left no-repeat;		
+    width: 100%;
+    height: auto;
+}
+
+.know-btn span:hover {
+	border-color: #0689cb;
+	background-color: #0689cb;
+	cursor: pointer;
+}
+
+.phone {
+    padding: 1.2em;
+}
+
+.phone-border {
+	border: 1px solid white;
+    border-radius: 1em;
+    margin-top: 7em;
+}
+
+.circle {
+	width: 35px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 1.3em;
+}
+
+.head-2 {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.inner-head-2 {
+	font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    margin: 40px 0px;
+    line-height: 32px;
+}
+
+.content-2 {
+	line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btns {
+	margin-top: 3em;
+}
+
+.btns {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	padding: 0.5em 2em;
+	border-radius: 2em;
+	font-size: 1.5em;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.btns:hover {
+	border-color: #0689cb;
+	background-color: #0689cb;
+	cursor: pointer;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.head-3 {
+	font-size: 24px;
+    text-transform: uppercase;
+    line-height: 32px;
+    margin-top: 5em;
+}
+
+.inner-head-3 {
+	font-weight: 600;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.content-3 {
+    font-size: 18px;
+    margin-top: 2em;
+} 
+
+.box-shadow {
+	background: rgba(0,0,0,.6);
+    padding: 30px 12px;
+    margin-top: 3em;
+}
+
+.statBox {
+    margin: 30px 25px;
+    color: #fff;
+}
+
+.statBox span.ico.device {
+    background-position: -13px -17px;
+}
+
+.statBox span.ico {
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 10px;
+    background: #ccc;
+    background: url(https://i.l.inmobicdn.net/website/website/2.0.7/v4/img/powerhouse_icons.png) no-repeat;
+    background-size: 140px;
+}
+
+.statBox .statHead {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.statBox .statDesc {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.statBox span.ico.data {
+    background-position: -13px -188px;
+}
+
+.statBox span.ico.pubs {
+    background-position: -13px -96px;
+}
+
+.statBox span.ico.advs {
+    background-position: -87px -17px;
+}
+
+.statBox span.ico.downloads {
+    background-position: -87px -188px;
+}
+
+.statBox span.ico.adreqs {
+    background-position: -87px -96px;
+}
